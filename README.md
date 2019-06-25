@@ -1,3 +1,8 @@
+Index will take one to app.js which in turn will take to make1.js which will take to modules.js which will then take to lessons.js and finally to cards.js
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
