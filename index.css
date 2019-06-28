@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.titles{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.LessonTitle{
+  font-size:30px;
+  font-weight: 800;
+  clear:both;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color:white;
+  
+}
+.sc{
+  overflow:auto;
+  float:left;
+}
+.buttons{
+  background-color: forestgreen;
+  color:white;
+  width:300px;
+  height:50px;
+  text-align:center;
+}
+.abc{
+  text-align: center;
+}
