@@ -5,12 +5,12 @@ class Lesson extends React.Component{
     render(){
         const {lessons}=this.props
        
-    const a=lessons.map((les,index) => <p key={index}> {les.title} </p> )
+    const a=lessons.map((les,index) => <div><p key={index} className="LessonTitle"> Lesson {index+1} {les.title} </p>  </div> )
     const l=lessons.map((dom,index) => <Cards key={index} allinfo={dom.cards} /> ) 
         return(
             
          <div>
-        {a} {l}
+      <p>  {a}</p>
     </div>
         )
     }

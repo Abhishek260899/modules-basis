@@ -34,7 +34,7 @@ class Make1 extends React.Component{
 
       return(
         <div>
-         <Modules modules={this.state.Data.modules}/>
+         <Modules  modules={this.state.Data.modules}/>
           </div>    
       )
     }
