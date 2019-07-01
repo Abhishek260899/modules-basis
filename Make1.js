@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Modules from './Modules'
 class Make1 extends React.Component{
@@ -10,9 +11,9 @@ class Make1 extends React.Component{
     }
 
     componentDidMount(){
-        var bearer='Bearer 5d0ba2fa6bcfc87139e85170,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkMGJhMmZhNmJjZmM4NzEzOWU4NTE3MCIsImlhdCI6MTU2MTM3MTEyNCwiZXhwIjoxNTYxOTc1OTI0fQ.IazTLyTq-9_g6MxqGnJt0zSCbY4l__aqEVVLxajpu7E';
+        var bearer='Bearer 5d199c8763a13328ad7a15c5,eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkMTk5Yzg3NjNhMTMzMjhhZDdhMTVjNSIsImlhdCI6MTU2MTk1OTU1OSwiZXhwIjoxNTYyNTY0MzU5fQ.11QXokuYj3PiI966NXGrYrzr65UWGAYFaZj1ZrL2aLc';
 
-        fetch("https://dev.getbasis.co/v1/users/5d0ba2fa6bcfc87139e85170/modules",{
+        fetch("https://dev.getbasis.co/v1/users/5d199c8763a13328ad7a15c5/modules",{
             method: 'GET',
             withCredentials: true,
            

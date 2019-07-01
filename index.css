@@ -25,13 +25,14 @@ code {
 }
 .container {
   position: relative;
-  text-align: center;
+  text-align:center;
   color:white;
   
 }
 .sc{
   overflow:auto;
   float:left;
+
 }
 .buttons{
   background-color: forestgreen;
@@ -42,4 +43,10 @@ code {
 }
 .abc{
   text-align: center;
+}
+
+
+
+.l{
+ color:blue;
 }
